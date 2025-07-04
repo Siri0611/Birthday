@@ -37,7 +37,7 @@ li{
 }
 .border {
   position: absolute;
-  top:45%;
+  top:50%;
   left:55%;
   transform: translate(-50%, -50%);
   height: 800px;
@@ -77,15 +77,15 @@ li{
   .border {
     position: absolute;
     height: 300px;
-    top:10%;
+    top:30%;
     left: 55%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, -70%);
   }
   .rightsideBalloon{
     display: inline-block;
     position:absolute;
     top:60px;
-    transform: translate(100%, 100%);
+    transform: translate(115%, 10%);
   }
   .sideBallons{
     display: inline-block;
