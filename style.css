@@ -37,7 +37,7 @@ li{
 }
 .border {
   position: absolute;
-  top: 40%;
+  top: 30%;
   left:55%;
   transform: translate(-50%, -50%);
   height: 800px;
@@ -62,7 +62,7 @@ li{
   display: inline-block;
  position:absolute;
  top:60px;
- transform: translate(120%, 10%);
+ transform: translate(150%, 10%);
 }
 .card1{
   margin-top:200px;
