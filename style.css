@@ -37,7 +37,7 @@ li{
 }
 .border {
   position: absolute;
-  top: 40%;
+  top: 60%;
   left:55%;
   transform: translate(-50%, -50%);
   height: 800px;
@@ -56,13 +56,13 @@ li{
  display: inline-block;
  position:absolute;
  top:60px;
- transform: translate(0%, 10%);
+ transform: translate(-35%, 10%);
 }
 .rightsideBalloon{
   display: inline-block;
  position:absolute;
  top:60px;
- transform: translate(260%, 10%);
+ transform: translate(130%, 10%);
 }
 .card1{
   margin-top:200px;
@@ -75,6 +75,7 @@ li{
   }
 
   .border {
+    position: absolute;
     height: 300px;
     top: 40%;
     left: 55%;
