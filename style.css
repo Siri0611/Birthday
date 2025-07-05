@@ -23,15 +23,12 @@ h1{
   max-width: 500px;
   height:200px;
 }
-li{
-  list-style-type:none;
-}
 .candle21{
   float:left;
   height: 400px;
   width: 400px;
 }
-.wish21{
+.wish21,.thankyou,.card1{
   margin-right: 40px;
   margin-left: 40px;
 }
@@ -47,10 +44,6 @@ li{
   float:right;
   height: 500px;
   width: 500px;
-}
-.thankyou{
-  margin-right: 40px;
-  margin-left: 40px;
 }
 .sideBallons{
  display: inline-block;
