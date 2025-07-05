@@ -28,7 +28,7 @@ h1{
   height: 400px;
   width: 400px;
 }
-.wish21,.thankyou,.card1{
+.wish21,.thankyou{
   margin-right: 40px;
   margin-left: 40px;
 }
@@ -50,12 +50,14 @@ h1{
  position:absolute;
  top:60px;
  transform: translate(-35%, 10%);
+  margin-left:40px;
 }
 .rightsideBalloon{
   display: inline-block;
  position:absolute;
  top:60px;
  transform: translate(200%, 10%);
+  margin-right:40px;
 }
 .card1{
   margin-top:200px;
@@ -101,7 +103,7 @@ h1{
   height: 300px;
   width: 250px;
 }
-  .card,.thankyou{
+  .card img,.thankyou img{
     width: 200px;
     height:200px;
   }
