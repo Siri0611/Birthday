@@ -61,7 +61,7 @@ h1{
 }
 .card1{
   margin-top:200px;
-  margin-bottom: 240px;
+  margin-bottom: 280px;
 }
 @media (max-width:700px) {
   h1 {
@@ -107,7 +107,7 @@ h1{
     height:200px;
   }
   .card1{
-    margin-bottom:200px;
+    margin-bottom:100px;
   }
 }
   
