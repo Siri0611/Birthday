@@ -61,7 +61,7 @@ h1{
 }
 .card1{
   margin-top:200px;
-  margin-bottom: 240px;
+  margin-bottom: 200px;
 }
 @media (max-width:700px) {
   h1 {
@@ -74,19 +74,19 @@ h1{
     height: 300px;
     top:25%;
     left: 55%;
-    transform: translate(-50%,-3%);
+    transform: translate(-50%,-15%);
   }
   .rightsideBalloon{
     display: inline-block;
     position:absolute;
     top:60px;
-    transform: translate(57%, 50%);
+    transform: translate(60%, 0%);
   }
   .sideBallons{
     display: inline-block;
     position:absolute;
     top:60px;
-    transform: translate(-55%, 50%);
+    transform: translate(-55%, 0%);
 }
 .sideBallons img,.rightsideBalloon img{
   width: 300px;
