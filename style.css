@@ -1,6 +1,33 @@
 body{
   background-color:#d4f1f4;
 }
+.sad{
+  background-image: url("cry.gif");
+}
+.excited{
+  background-image: url("excited.gif");
+}
+.happy{
+  background-image: url("happy.gif");
+}
+.cake{
+  background-image: url("cake.gif");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+.surprise{
+  background-image: url("surprise.gif");
+  background-repeat: no-repeat;
+  background-position: 70% 85%;
+}
+.bye{
+  background-image: url("bye.gif");
+}
+.sad, .excited, .happy, .bye{
+  background-repeat: no-repeat;
+  background-position: 50% 10%;
+}
+
 h1{
   font-family:'Pacifico',cursive;
   font-size:5rem;
@@ -34,7 +61,7 @@ h1{
 }
 .border {
   position: absolute;
-  top:55%;
+  top: 65%;
   left:55%;
   transform: translate(-50%, -50%);
   height: 800px;
@@ -46,22 +73,25 @@ h1{
   width: 500px;
 }
 .sideBallons{
- display: inline-block;
- position:absolute;
- top:60px;
- transform: translate(-35%, 10%);
-  margin-left:40px;
+  position: absolute;
+  top:-20%;
+  right:70%;
 }
 .rightsideBalloon{
-  display: inline-block;
- position:absolute;
- top:60px;
- transform: translate(200%, 10%);
-  margin-right:40px;
+  position:absolute;
+  left:70%;
+  top:-20%;
 }
 .card1{
+  position: relative;
   margin-top:200px;
   margin-bottom: 280px;
+}
+#visible{
+  visibility: hidden;
+}
+.dim{
+  opacity: 0.25;
 }
 @media (max-width:700px) {
   h1 {
@@ -69,27 +99,21 @@ h1{
     margin: 0 20px;
   }
   .border {
-    position: absolute;
-    height: 300px;
-    top:25%;
+    height: 370px;
+    top:20%;
     left: 55%;
-    transform: translate(-50%,-15%);
+    transform: translate(-50%, -40%);
   }
-  .rightsideBalloon{
-    display: inline-block;
-    position:absolute;
-    top:60px;
-    transform: translate(60%, 0%);
-  }
-  .sideBallons{
-    display: inline-block;
-    position:absolute;
-    top:60px;
-    transform: translate(-55%, 0%);
+.sideBallons,.rightsideBalloon {
+  height: 400px;
+  width:auto;
+  top:-150%;
 }
-.sideBallons img,.rightsideBalloon img{
-  width: 300px;
-  height: 300px;
+.sideBallons{
+  right: 55%;
+}
+.rightsideBalloon{
+  left: 60%;
 }
 .text{
   font-size: 1.5rem;
@@ -102,13 +126,11 @@ h1{
   height: 300px;
   width: 250px;
 }
-  .card img,.thankyou img{
-    width: 200px;
-    height:200px;
-  }
-  .card1{
-    margin-bottom:100px;
-  }
+.card1{
+  margin-bottom: 100px;
 }
-  
-
+.card img,.thankyou img{
+  width: 200px;
+  height: 200px;
+}
+  }
